@@ -18,6 +18,16 @@
       "sha256": "8571d1ad38d0dca4ca7c282931050be5f124b152c86a1f8eb5a5fa75cfd962c3"
     },
     {
+      "path": "README.md",
+      "bytes": 6102,
+      "sha256": "d5528175059db417885f51e9fb7fbfb041d298a5a3b1d67500407f17d8114bfb"
+    },
+    {
+      "path": "RELEASE_STATUS.json",
+      "bytes": 626,
+      "sha256": "06415358936ead8f19b070eb242b245c655b4ae4e99b04ce274f19807a280e97"
+    },
+    {
       "path": "configs/clean_risk_feature_contract.json",
       "bytes": 17857,
       "sha256": "0c3cf38b7cca240f0e594d58f3565b81ef36532bce9aef59270e872bf69c7058"
@@ -58,14 +68,9 @@
       "sha256": "2ae985678c0893e5a3512d752fc3f1ca8ee27b9de350b44f613f90798fcf106e"
     },
     {
-      "path": "docs/references.json",
-      "bytes": 16216,
-      "sha256": "cdf4b67c806df5686f4edb9710aaf31e33de04cf0677140366963de4512e54a3"
-    },
-    {
       "path": "docs/RELEASE_SCOPE.md",
-      "bytes": 2534,
-      "sha256": "1bc948d49120c648663293b33a6eabb68e958d67f7baf9dc71eb8c945c257727"
+      "bytes": 2622,
+      "sha256": "6de8e164678d83bae66a48a30c89bc0144936314fa206230d9b43506554aba41"
     },
     {
       "path": "docs/REPRODUCTION_GUIDE.md",
@@ -76,6 +81,11 @@
       "path": "docs/SCORING_VERSIONS.md",
       "bytes": 2899,
       "sha256": "5279358d92377dcf9a4e35988953d95e278bd92d599b70b953b2d7e4b1bda6b3"
+    },
+    {
+      "path": "docs/references.json",
+      "bytes": 16216,
+      "sha256": "cdf4b67c806df5686f4edb9710aaf31e33de04cf0677140366963de4512e54a3"
     },
     {
       "path": "external_comparisons/dev1096.jsonl",
@@ -231,16 +241,6 @@
       "path": "pyproject.toml",
       "bytes": 345,
       "sha256": "14f1db8a099283efed86b2ad5805c358d5bc0706a7cdfc3ea14e6070ed800828"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5911,
-      "sha256": "d198507180d27517b4f70890d525202af35d9eff8685583e4bd3e8e7a5ae88a0"
-    },
-    {
-      "path": "RELEASE_STATUS.json",
-      "bytes": 438,
-      "sha256": "e0e4e823e00a1d9d69ab0d29c0369ead75c28e9cc4cbd2a1e5c174d930699f06"
     },
     {
       "path": "requirements.txt",

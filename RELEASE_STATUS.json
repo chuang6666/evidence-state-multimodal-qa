@@ -1,11 +1,15 @@
 {
-  "status": "LOCAL_CANDIDATE_VALIDATED_AWAITING_AUTHOR_PUBLICATION_APPROVAL",
+  "status": "PUBLIC_FROZEN_OUTPUT_RELEASE",
   "target": "International Journal of Machine Learning and Cybernetics",
   "manuscript": "IJMLC_Submission_v2",
-  "public_repository_created": false,
-  "pushed": false,
+  "public_repository_created": true,
+  "pushed": true,
   "license_selected": false,
   "complete_end_to_end_reproduction": false,
   "binding": "provenance/ijmlc_manuscript_binding.json",
-  "validation": "provenance/validation.json"
+  "validation": "provenance/validation.json",
+  "repository": "https://github.com/chuang6666/evidence-state-ijmlc",
+  "approved_candidate_commit": "6937e8b6ec3820b7fa4684e7456cc80aa3fb6434",
+  "author_publication_approved": true,
+  "publication_date": "2026-11-16"
 }

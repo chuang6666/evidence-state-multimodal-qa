@@ -1,5 +1,5 @@
 {
-  "state": "LOCAL_CANDIDATE_VALIDATED_NOT_PUBLISHED",
+  "state": "VALIDATED_FROZEN_OUTPUT_RELEASE_AUTHORIZED",
   "date": "2026-11-16",
   "environment": {
     "python": "3.12.14",
@@ -226,6 +226,11 @@
   "training_calls": 0,
   "commercial_generation_or_scoring_calls": 0,
   "all_original_scientific_files_unchanged": true,
-  "publication_authorized": false,
-  "scope_note": "All 26 table paths/specifications are mapped; numeric main tables and specified comparisons are replayed. A checked frozen SI record is not a reproduced upstream experiment."
+  "publication_authorized": true,
+  "scope_note": "All 26 table paths/specifications are mapped; numeric main tables and specified comparisons are replayed. A checked frozen SI record is not a reproduced upstream experiment.",
+  "publication": {
+    "repository": "https://github.com/chuang6666/evidence-state-ijmlc",
+    "approved_candidate_commit": "6937e8b6ec3820b7fa4684e7456cc80aa3fb6434",
+    "validation_basis": "Completed independent local candidate verification. Post-publication anonymous-clone validation is recorded separately."
+  }
 }

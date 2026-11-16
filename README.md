@@ -79,4 +79,4 @@ Obtain data under the providers' terms. Reference answers, original questions/ev
 
 ## Release and licensing status
 
-This is an independent **local release candidate**. No public repository, release DOI or acceptance is implied. No project-wide open-source license has been selected on the authors' behalf. A licensing decision and publication approval remain with the authors.
+This independent repository publicly releases the **IJMLC v2 frozen-output reproducibility materials**. The manuscript remains a submission candidate; this repository does not imply acceptance, publication, or a release DOI. The authors authorized publication of the reviewed materials. No project-wide open-source license has been selected; public availability does not grant an unrestricted reuse license. See [RELEASE_SCOPE](docs/RELEASE_SCOPE.md).

@@ -4,7 +4,7 @@
 
 IJMLC v2 frozen numerical rankings, memberships, endpoint projections, approved base prediction values, feature/equation contracts, manuscript mappings, pure evaluation kernels, specified statistical procedures and integrity tests. Function-body receipts identify retained numerical code; relocation and table-number changes do not change metric definitions.
 
-The source tree has independent Git history. It presents this manuscript candidate only. Public state remains **not published** until the authors authorize an actual repository release.
+The source tree has independent Git history and presents this manuscript candidate only. The authors authorized the public frozen-output release at https://github.com/chuang6666/evidence-state-ijmlc. Public repository release does not imply journal acceptance or publication.
 
 ## Deliberately not distributed
 
@@ -14,7 +14,7 @@ Upstream transition training data/checkpoints, complete extraction/generation ru
 
 ## License status
 
-No project-wide LICENSE was present in the reviewed source release, and no MIT, Apache or other new license is granted by this candidate. Public availability does not itself confer an unrestricted open-source license. Any notices on retained material continue to apply; third-party data and dependencies remain governed by their own terms.
+No project-wide LICENSE was present in the reviewed source release, and no MIT, Apache or other new license is granted by this release. Public availability does not itself confer an unrestricted open-source license. Any notices on retained material continue to apply; third-party data and dependencies remain governed by their own terms.
 
 The authors must decide whether to add a formal code license and confirm the rights for every proposed public asset. This repository does not relicense benchmark data, generated materials or dependencies. It contains no fabricated license identifiers, data permissions, acceptance status or publication DOI.
 
