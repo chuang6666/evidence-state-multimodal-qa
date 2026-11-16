@@ -1,0 +1,73 @@
+[
+  {
+    "manuscript_name": "Initial",
+    "record_name": "Initial",
+    "output_pool": "No replacement",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Retained Frozen Initial Answer; no selection."
+  },
+  {
+    "manuscript_name": "Random-20",
+    "record_name": "Random-20260822 ... Random-20260826",
+    "output_pool": "Five original frozen strategy assignments",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Mean and sample SD; seed-specific selected sets/output histories are not a newly regenerated shared-output experiment.",
+    "selection_file": "frozen_results/selections/locked1341_random_five_assignments.jsonl"
+  },
+  {
+    "manuscript_name": "G0-20",
+    "record_name": "G0-20",
+    "output_pool": "Original separately frozen strategy outputs",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Numeric membership in selections/locked1341_all_selector_membership.jsonl."
+  },
+  {
+    "manuscript_name": "Suff-20",
+    "record_name": "Suff-only",
+    "output_pool": "Shared legal later-adaptation outputs",
+    "file": "external_comparisons/locked1341.jsonl",
+    "protocol": "Direct task-adapted binary sufficiency; forced then unavailable tiers."
+  },
+  {
+    "manuscript_name": "G12+Suff-LR-20",
+    "record_name": "G12+Suff-LR",
+    "output_pool": "Shared legal later-adaptation outputs",
+    "file": "external_comparisons/locked1341.jsonl",
+    "protocol": "Study-designed general features plus external signal and LR."
+  },
+  {
+    "manuscript_name": "MiniCheck-20",
+    "record_name": "MiniCheck-only",
+    "output_pool": "Shared legal later-adaptation outputs",
+    "file": "external_comparisons/locked1341.jsonl",
+    "protocol": "Task-adapted textual claim support; six forced scores inapplicable."
+  },
+  {
+    "manuscript_name": "G12+MiniCheck-LR-20",
+    "record_name": "G12+MiniCheck-LR",
+    "output_pool": "Shared legal later-adaptation outputs",
+    "file": "external_comparisons/locked1341.jsonl",
+    "protocol": "Study-designed general features plus external signal and LR."
+  },
+  {
+    "manuscript_name": "B3-Refit",
+    "record_name": "B3-Refit",
+    "output_pool": "Original separately frozen strategy outputs",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Original B3 deployment; not replaced with later external outputs."
+  },
+  {
+    "manuscript_name": "Instability-20",
+    "record_name": "Instability-20",
+    "output_pool": "Original frozen strategy outputs",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Surface-normalized stochastic-answer instability scores; no new samples."
+  },
+  {
+    "manuscript_name": "VC-20",
+    "record_name": "VC-20",
+    "output_pool": "Original frozen strategy outputs",
+    "file": "frozen_results/metrics/locked1341.jsonl",
+    "protocol": "Verbalized correctness probability; 4 unavailable judgments prioritized; no new scoring."
+  }
+]

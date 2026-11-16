@@ -1,0 +1,231 @@
+{
+  "state": "LOCAL_CANDIDATE_VALIDATED_NOT_PUBLISHED",
+  "date": "2026-11-16",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "fresh_venv": true,
+    "system_site_packages": false,
+    "module_from_fresh_repository": true
+  },
+  "released_data_commands": {
+    "core_tests": true,
+    "checksums": true,
+    "frozen_replay": true,
+    "IJMLC_numeric_tables": true,
+    "external_replay": true,
+    "structural_comparison": true,
+    "specified_statistics": true,
+    "external_statistics": true,
+    "structural_statistics": true
+  },
+  "statistical_CI_checks": {
+    "baseline_and_component": 24,
+    "external_EM_F1": 8,
+    "structural_fixed_score_metrics": 4
+  },
+  "structural_counts": {
+    "shared": {
+      "N": 195,
+      "initial_wrong": 179,
+      "initial_correct": 16
+    },
+    "B3_only": {
+      "N": 25,
+      "initial_wrong": 22,
+      "initial_correct": 3
+    },
+    "A4_only": {
+      "N": 25,
+      "initial_wrong": 20,
+      "initial_correct": 5
+    },
+    "neither": {
+      "N": 851,
+      "initial_wrong": 459,
+      "initial_correct": 392
+    }
+  },
+  "B2_B3": {
+    "shared_top220": {
+      "N": 215,
+      "initial_wrong": 197,
+      "initial_correct": 18
+    },
+    "B2_only": {
+      "N": 5,
+      "initial_wrong": 4,
+      "initial_correct": 1
+    },
+    "B3_only": {
+      "N": 5,
+      "initial_wrong": 4,
+      "initial_correct": 1
+    }
+  },
+  "locked1341_observed_EM_F1_percent": [
+    {
+      "method": "B3-Refit",
+      "em_percent": 51.30499627143923,
+      "token_f1_percent": 58.525836322851454
+    },
+    {
+      "method": "G0-20",
+      "em_percent": 51.1558538404176,
+      "token_f1_percent": 58.587815363477866
+    },
+    {
+      "method": "Initial",
+      "em_percent": 47.80014914243102,
+      "token_f1_percent": 54.998919146049175
+    },
+    {
+      "method": "Instability-20",
+      "em_percent": 52.79642058165548,
+      "token_f1_percent": 60.67283003663193
+    },
+    {
+      "method": "VC-20",
+      "em_percent": 55.40641312453393,
+      "token_f1_percent": 63.637065729362575
+    },
+    {
+      "method": "Suff-only-20",
+      "em_percent": 50.55928411633109,
+      "token_f1_percent": 58.074129192284694
+    },
+    {
+      "method": "G12+Suff-LR-20",
+      "em_percent": 51.826994780014914,
+      "token_f1_percent": 59.700277720538985
+    },
+    {
+      "method": "MiniCheck-only-20",
+      "em_percent": 48.99328859060403,
+      "token_f1_percent": 56.69186141306612
+    },
+    {
+      "method": "G12+MiniCheck-LR-20",
+      "em_percent": 51.976137211036544,
+      "token_f1_percent": 59.21131833633022
+    },
+    {
+      "method": "Random-20",
+      "em_percent": 49.78374347501864,
+      "token_f1_percent": 57.365632422952636
+    }
+  ],
+  "original_source_numeric_checks": [
+    {
+      "method": "G0",
+      "population": 1096,
+      "risk_label_fold_selection_equal": true
+    },
+    {
+      "method": "CLEAN_B2",
+      "population": 1096,
+      "risk_label_fold_selection_equal": true
+    },
+    {
+      "method": "CLEAN_B3",
+      "population": 1096,
+      "risk_label_fold_selection_equal": true
+    },
+    {
+      "method": "A4",
+      "population": 1096,
+      "risk_label_equal": true
+    },
+    {
+      "methods": [
+        "B3-Refit",
+        "G0-20",
+        "G12+Suff-LR (adapted)",
+        "Initial",
+        "Instability-20",
+        "Suff-only-20 (adapted)",
+        "VC-20"
+      ],
+      "population": 1341,
+      "per_QID_EM_F1_equal": true
+    },
+    {
+      "methods": [
+        "B3-Refit",
+        "G12+MiniCheck-LR (adapted v1)",
+        "Initial",
+        "MiniCheck-only-20 (adapted v1)"
+      ],
+      "population": 1341,
+      "per_QID_EM_F1_equal": true
+    },
+    {
+      "method": "B3 and five Random assignments",
+      "population": 1341,
+      "per_QID_EM_F1_equal": true
+    },
+    {
+      "methods": [
+        "A0",
+        "A4",
+        "A6"
+      ],
+      "population": 1096,
+      "per_QID_EM_F1_equal": true
+    },
+    {
+      "method": "M3 B3-Refit",
+      "population": 13125,
+      "per_QID_answer_list_and_full_match_equal": true
+    },
+    {
+      "method": "M3 Random-20",
+      "population": 13125,
+      "per_QID_answer_list_and_full_match_equal": true
+    },
+    {
+      "external_original_source_hashes_checked": 24,
+      "all_equal": true
+    }
+  ],
+  "random_selection": {
+    "status": "PASS_RANDOM_SELECTION_SOURCE_PROJECTION",
+    "MMQA_per_seed": 269,
+    "MMQA_B3_forced_reference_count": 6,
+    "MMQA_B3_forced_intersections": {
+      "20260822": 1,
+      "20260823": 2,
+      "20260824": 2,
+      "20260825": 0,
+      "20260826": 1
+    },
+    "MMQA_seeds": [
+      20260822,
+      20260823,
+      20260824,
+      20260825,
+      20260826
+    ],
+    "M3_selected": 2625,
+    "M3_forced": 515,
+    "inferred_from_score_or_answer_changes": false
+  },
+  "optional_non_distributed_input_checks": {
+    "base_answer_rescoring": "PASS with separately obtained provider references",
+    "external_answer_rescoring": "PASS: 5,364 method/QID scores using separately authorized, non-distributed frozen replacements and provider references",
+    "external_selected_union_QIDs": 585,
+    "provider_references_or_external_answers_distributed": false
+  },
+  "unverified_upstream_scope": [
+    "selector retraining",
+    "original structure extraction",
+    "external score/LR refitting",
+    "commercial generation",
+    "all supplementary upstream experiments"
+  ],
+  "training_calls": 0,
+  "commercial_generation_or_scoring_calls": 0,
+  "all_original_scientific_files_unchanged": true,
+  "publication_authorized": false,
+  "scope_note": "All 26 table paths/specifications are mapped; numeric main tables and specified comparisons are replayed. A checked frozen SI record is not a reproduced upstream experiment."
+}

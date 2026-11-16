@@ -1,0 +1,45 @@
+{
+  "title": "Evidence-State Risk Estimation for Selective Regeneration in Multimodal Multi-Hop Question Answering",
+  "target_journal": "International Journal of Machine Learning and Cybernetics",
+  "version": "IJMLC_Submission_v2",
+  "status": "submission candidate; not accepted or published",
+  "date_checked": "2026-11-16",
+  "main_pages": 25,
+  "SI_pages": 30,
+  "main_tables": 9,
+  "SI_tables": 17,
+  "equation_environments": 13,
+  "references": 34,
+  "artifacts": {
+    "IJMLC_Manuscript_v2.pdf": {
+      "sha256": "c030c8184ee1f495fcdd39a17e68f3f16efdb54f5a05652804b366dac44a11f2",
+      "distributed": false
+    },
+    "IJMLC_Manuscript_v2.tex": {
+      "sha256": "541213821003176b46fa07298d6b1ca1041206e3ce146d499c3b1b609addbb59",
+      "distributed": false
+    },
+    "ESM_1.pdf": {
+      "sha256": "4e30dffc3c43cc5deb70401fed69a652ac9c219f7ea55de5a3483bef2d6fa829",
+      "distributed": false
+    },
+    "SI/IJMLC_ESM_1_v2.tex": {
+      "sha256": "68e69e69b3de06aec592fc9ff049a7ed863bf2cbde92114a1ce4f765bcb407ba",
+      "distributed": false
+    }
+  },
+  "figures": {
+    "Figure 1": {
+      "source_vector_sha256": "44923198bb847c07b751bb0df65bf2fb092c1e3f8b4dbcc151623fad4ea5a086",
+      "source_artwork_distributed": false
+    },
+    "Figure 2": {
+      "source_vector_sha256": "b0693633c6c84feb3dbbb51d2854291433028b81b6d415e700ad45ebd1b9bf12",
+      "source_artwork_distributed": false
+    },
+    "Figure 3": {
+      "source_vector_sha256": "bb404b4068eacb62d4e6df61e24315e8967f60f377e6acba2af05f90aeec7d82",
+      "source_artwork_distributed": false
+    }
+  }
+}

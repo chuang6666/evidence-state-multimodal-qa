@@ -1,0 +1,2 @@
+# Offline numerical/statistical replay only. No model or API dependencies.
+numpy==2.3.5

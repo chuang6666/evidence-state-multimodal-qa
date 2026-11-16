@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-state-ijmlc"
+version = "0.1.0rc1"
+description = "IJMLC v2 frozen-output evaluation and numerical reproducibility materials"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,302 @@
+[
+  {
+    "table": "1",
+    "caption": "Structural semantics and basic effective-present conditions",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/equation_contracts.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "cd7311c53b21278f3418aab48d53f967041c20a7c723d96bacc51e034b1adae4",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "2",
+    "caption": "Five-fold OOF representation comparison and model selection on MMQA Dev1096",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/rankings/dev1096_oof.jsonl",
+      "src/evidence_state_repro/offline.py"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "2063f391a887d382caf25feb066a18fcce654526b5b7b5e019afcbd54ff90458",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "3",
+    "caption": "External reliability signals for error-risk ranking on MMQA Dev1096",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "external_comparisons/dev1096.jsonl",
+      "external_comparisons/replay.py",
+      "src/evidence_state_repro/ijmlc_tables.py"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "abbcfaae1a7f01928c8fec94e0275881d394c9fb90fe95e4cebe3c5643282bbc",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "4",
+    "caption": "Selective regeneration with a fixed 269-question budget on MMQA locked1341",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/metrics/locked1341.jsonl",
+      "external_comparisons/locked1341.jsonl",
+      "src/evidence_state_repro/ijmlc_tables.py",
+      "frozen_results/selections/locked1341_random_five_assignments.jsonl"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "56a39c4f6024dd46fbc0b844a97d5590f6cb657c6ab503c73e58a3744a403efe",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "5",
+    "caption": "Selected initial errors and regeneration yield on locked1341 (B = 269)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/selections/locked1341_all_selector_membership.jsonl",
+      "external_comparisons/locked1341.jsonl",
+      "src/evidence_state_repro/ijmlc_tables.py"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "4ff4140271db7ef2cec491b8bc89b6dcbbc8d61a4599708a091e79e096c045b7",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "6",
+    "caption": "Zero-tuning transfer to the frozen M3-VQA evaluation set (N = 13,125; B = 2,625)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/metrics/m3vqa13125.jsonl",
+      "src/evidence_state_repro/m3_frozen.py",
+      "src/evidence_state_repro/offline.py",
+      "frozen_results/selections/m3vqa_random20_selection.jsonl"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "56f4836d172098957b5880d5e8f8266fd1e7790312c6b00f707341aaf5944bf1",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "7",
+    "caption": "Evidence-State feature ablation and combinations on MMQA Dev1096",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/rankings/dev1096_explanatory_oof.jsonl",
+      "configs/exact_variant_key_sets.json",
+      "src/evidence_state_repro/offline.py"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "5f00018f77c18c1983306c947dc3fe127facd8fda6dd78732a9d5a96a910d9b3",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "8",
+    "caption": "Controlled Top-220 selective-regeneration endpoints on MMQA Dev1096",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/metrics/dev1096_controlled.jsonl",
+      "frozen_results/selections/dev1096_controlled_membership.jsonl",
+      "src/evidence_state_repro/offline.py"
+    ],
+    "verification_scope": "NUMERICAL_REPLAY",
+    "source_block_sha256": "54ba2a0544680ee91562eb0a9fdd6916150adb5ad934561f1ce190b7cc7ceabd",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "9",
+    "caption": "Three illustrative diagnosis and regeneration cases",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/metrics/qualitative_case_qid_map.json"
+    ],
+    "verification_scope": "QID_TRANSITION_MAPPING_ONLY",
+    "source_block_sha256": "515e0bd70df32814f3748033448a5d56673e998c5295061ebfb5319e143ab521",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S1",
+    "caption": "Frozen Evidence-State structure and verification contract (values shown to six decimal places)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "7fcbe6c82390b9dbdb0a9416c343b0e927ad4b6226c137355c936b95ddf5a118",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S2",
+    "caption": "Selector-side computation contract on MMQA locked1341 (269 regeneration opportunities per strategy)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "07ab3600ec9b235e07bab118cc61d7ed3d378e5d3eed1d8587d61e66cd6f8d37",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S3",
+    "caption": "QID-level answer-list score direction for M3-VQA B3-Refit versus prespecified Random-20",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "frozen_results/metrics/m3vqa13125.jsonl"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "9efec67fa4042ecfea8c6c2e3fe963a8fd54a03bbae7878c348f471f2e9f8e80",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S4",
+    "caption": "Base transition-supervision construction and size",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "0b57778b7981e8d0a5c0ce2f8f3a4c17195b4aeecc4872161b35b57dd7631d3d",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S5",
+    "caption": "Deployment configurations and transition-level aggregation",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "d5566b7057a7f5f316c0e574483e3562f52e7aa613369ee8a2c8dadf0a5e8d72",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S6",
+    "caption": "Frozen thresholds and reliability weights",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "126a1d85c73576c59631c4a931cf2f4120cf5b996ebf1ceb7dcc0a8c299460c3",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S7",
+    "caption": "Component-level OOF dependencies and calibration scope",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "fb35815d40331d759e51dea06a43ac90cb4907869661ef69ad806ad7884c511c",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S8",
+    "caption": "Four categorical fields and vectorized dimensions",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "414edde7b13005f4dbbe190d8ea62e9d024b62c90fdbd8b0f407526c187a6b75",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S9",
+    "caption": "Field counts of formal and explanatory variants",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "ecf38b0673e2c29d038fc2432e5b73385cd629d0ca7a2e9b65b7814097c42c53",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S10",
+    "caption": "General/surface fields (G12)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "eb36e74f26b1a911240c527f007d33d8b869c7626df0b8f81b9371d2a5d1b73d",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S11",
+    "caption": "Expected-related fields (E21)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "b9ef6b7083110913ceaea241f5339e16a484bbfadbc3b4b5367e2c543245bfb0",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S12",
+    "caption": "Expected--Observed mismatch fields (M6)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "cd4a10e14c40215126bc52ae8a96a91d600c7e7db20607b24f2864c052976fdf",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S13",
+    "caption": "Diagnosis/localization/required-present fields (26)",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "4d2882607c6f7a2156dbf3ba2f0d077af2ee5ce726d9d2760a92f47487d63866",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S14",
+    "caption": "N6 fields used exclusively by explanatory variants",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json",
+      "configs/exact_variant_key_sets.json",
+      "configs/clean_risk_feature_contract.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "dfda1db9a56288ebf89abf3cccfc7d7d1c74163358d7eab511ac806b91c1488a",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S15",
+    "caption": "Local matching conditions for historical result reuse",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "0cd07b44b4a91de9e8eb9bf677b6c2fc6f87b09d55e07942a2cd0b18aa111293",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S16",
+    "caption": "Result reuse and execution under the fixed M3 budget",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "5b2c153bcd64cd2c2d3f1565bed36b4061e28e631563af2e655b32bfd469a288",
+    "upstream_execution_reproduced": false
+  },
+  {
+    "table": "S17",
+    "caption": "Full-coverage retrieval--generation endpoint references on MMQA locked1341",
+    "files": [
+      "frozen_results/metrics/manuscript_tables.json"
+    ],
+    "verification_scope": "FROZEN_CONTRACT_OR_TABLE_RECORD_ONLY",
+    "source_block_sha256": "04983744587023cc6ce846cbba508e762b68640b6893dac4b03146dbbc2b1eed",
+    "upstream_execution_reproduced": false
+  }
+]

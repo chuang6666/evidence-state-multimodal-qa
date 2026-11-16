@@ -1,0 +1,206 @@
+[
+  {
+    "key": "ref25",
+    "record": "\\bibitem[Arana et~al.(2026)]{ref25}\nArana JM, Carandang KAM, Casin ER, Alis C, Monterola C (2026) When Models Hesitate: Answer Instability as a Label-Free Uncertainty Signal for LLMs. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop), 816--826. \\url{https://doi.org/10.18653/v1/2026.acl-srw.72}.",
+    "sha256": "439efffd5ada6e2de0f40c001b45858355826fe9b90008f3b6c6f5f6b3da355b",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref8",
+    "record": "\\bibitem[Asai et~al.(2024)]{ref8}\nAsai A, Wu Z, Wang Y, Sil A, Hajishirzi H (2024) Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. ICLR. \\url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html}.",
+    "sha256": "1568122dfb7976e80dd4b497bbf8eacdd02ea1a08730937a2d5abe816024c762",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref6",
+    "record": "\\bibitem[Baek et~al.(2023)]{ref6}\nBaek J, Jeong S, Kang M, Park JC, Hwang SJ (2023) Knowledge-Augmented Language Model Verification. EMNLP, 1720--1736. \\url{https://doi.org/10.18653/v1/2023.emnlp-main.107}.",
+    "sha256": "bda20ebf7c34b0e4c6deb613ca09afd24ed19c48f76da729dc598a4180adebb6",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref11",
+    "record": "\\bibitem[Binz et~al.(2026)]{ref11}\nBinz S, Soudani H, Hasibi F (2026) Uncertainty Quantification for Multimodal Retrieval Augmented Generation. Proceedings of ICTIR, 23--33. \\url{https://doi.org/10.1145/3805713.3820431}.",
+    "sha256": "3885ce764828bd588170247a10a1a67b2bab27101c99673c3bb0526739ec22bf",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref2",
+    "record": "\\bibitem[Chang et~al.(2022)]{ref2}\nChang Y, Cao G, Narang M, Gao J, Suzuki H, Bisk Y (2022) WebQA: Multihop and Multimodal QA. CVPR, 16474--16483. \\url{https://doi.org/10.1109/CVPR52688.2022.01600}.",
+    "sha256": "18e68a29a7714d03c66b464e4c44078a3372f2a9d708bf20407b33be7f7fb7a6",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref14",
+    "record": "\\bibitem[Chen et~al.(2022)]{ref14}\nChen W, Hu H, Chen X, Verga P, Cohen W (2022) MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, 5558--5570. \\url{https://doi.org/10.18653/v1/2022.emnlp-main.375}.",
+    "sha256": "3f56ceecc4df8f5bfb7ef990082b7c85de4e62a71e1ab77e62a7c8d3a0673f60",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref10",
+    "record": "\\bibitem[Dancette et~al.(2023)]{ref10}\nDancette C, Whitehead S, Maheshwary R, Vedantam R, Scherer S, Chen X, Cord M, Rohrbach M (2023) Improving Selective Visual Question Answering by Learning from Your Peers. CVPR, 24049--24059. \\url{https://doi.org/10.1109/CVPR52729.2023.02303}.",
+    "sha256": "b719a5ac047907f9a0588184818f0acd91a07120347cb07edff7f15af3c39818",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref26",
+    "record": "\\bibitem[Farquhar et~al.(2024)]{ref26}\nFarquhar S, Kossen J, Kuhn L, Gal Y (2024) Detecting hallucinations in large language models using semantic entropy. Nature 630, 625--630. \\url{https://doi.org/10.1038/s41586-024-07421-0}.",
+    "sha256": "c3c5e6049c9c72835998923ea19f98ddf7aafc08c2df38a8f0c34da7d5bd5e3f",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref7",
+    "record": "\\bibitem[He et~al.(2024)]{ref7}\nHe B, Chen N, He X, Yan L, Wei Z, Luo J, Ling ZH (2024) Retrieving, Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation. Findings of EMNLP, 10371--10393. \\url{https://doi.org/10.18653/v1/2024.findings-emnlp.607}.",
+    "sha256": "0268c9807124b931863d9903ba7b61bbc988366efe4767a162a08641c4a74572",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref12",
+    "record": "\\bibitem[Ishii et~al.(2025)]{ref12}\nIshii A, Inoue N, Suzuki H, Sekine S (2025) Fine-grained Confidence Estimation for Spurious Correctness Detection in Large Language Models. IJCNLP--AACL, 1238--1257. \\url{https://doi.org/10.18653/v1/2025.ijcnlp-long.68}.",
+    "sha256": "2577ad12b2c2b256f9a407ed16aea6a5c2caca841da689190f99d701513a6185",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref30",
+    "record": "\\bibitem[Jang et~al.(2025)]{ref30}\nJang Y, Choi WS, Jung M, Lee M, Zhang BT (2025) Confidence-guided Refinement Reasoning for Zero-shot Question Answering. EMNLP, 6933--6950. \\url{https://doi.org/10.18653/v1/2025.emnlp-main.354}.",
+    "sha256": "805ac835586ab5365c4f357644d12378ef418608f8218a9e4c396058af1335e3",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref29",
+    "record": "\\bibitem[Jeong et~al.(2024)]{ref29}\nJeong S, Baek J, Cho S, Hwang SJ, Park JC (2024) Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity. NAACL-HLT, 7036--7050. \\url{https://doi.org/10.18653/v1/2024.naacl-long.389}.",
+    "sha256": "1ef596928ef36b64a64b9d944f7abc335af0fd06dc6b55fef6cae82453a8de84",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref27",
+    "record": "\\bibitem[Jiang et~al.(2023)]{ref27}\nJiang Z, Xu FF, Gao L, Sun Z, Liu Q, Dwivedi-Yu J, Yang Y, Callan J, Neubig G (2023) Active Retrieval Augmented Generation. EMNLP, 7969--7992. \\url{https://doi.org/10.18653/v1/2023.emnlp-main.495}.",
+    "sha256": "514b31abb0a6a691c143503a3bd2a33a70d7b53c5b92772b83fbeefc02c884d4",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref17",
+    "record": "\\bibitem[Joren et~al.(2025)]{ref17}\nJoren H, Zhang J, Ferng CS, Juan DC, Taly A, Rashtchian C (2025) Sufficient Context: A New Lens on Retrieval Augmented Generation Systems. International Conference on Learning Representations, 20310--20334. \\url{https://proceedings.iclr.cc/paper_files/paper/2025/hash/33dffa2e3d2ab74a783d1a8c292f66d9-Abstract-Conference.html}.",
+    "sha256": "06e4af5c64d8970da12bb925e9eeb956b558004004b0d8bbe322d7f48db607a7",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref21",
+    "record": "\\bibitem[Kim et~al.(2026)]{ref21}\nKim S, Kim HR, Kim S, Kim KJ, Ko BC (2026) Efficient and reliable multimodal retrieval-augmented question answering via greedy leave-one-out consistency pruning. Pattern Analysis and Applications 29:172. \\url{https://doi.org/10.1007/s10044-026-01753-5}.",
+    "sha256": "87b6078e1afa52f3ae015569dfe4db443874c95b2da0d14c96b1a0c6776c2850",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref18",
+    "record": "\\bibitem[Kotte(2026)]{ref18}\nKotte V (2026) EVICT: Evidence-Sufficiency Verification via Counterfactual Dropout for Visually-Grounded Selective Question Answering. CVPR Workshops (GRAIL-V), 11251--11259. \\url{https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Kotte_EVICT_Evidence-Sufficiency_Verification_via_Counterfactual_Dropout_for_Visually-Grounded_Selective_Question_CVPRW_2026_paper.html}.",
+    "sha256": "49bb88b24008ad83ef34244d0626782fc3ce5bd228c7b986f895a305c4422dfd",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref5",
+    "record": "\\bibitem[Li et~al.(2026)]{ref5}\nLi M, Zou J, Lv X, Zhang C, Zhou G (2026) S2G-RAG: Structured Sufficiency and Gap Judging for Iterative Retrieval-Augmented QA. Proceedings of ACL (Volume 1: Long Papers), 25846--25862. \\url{https://doi.org/10.18653/v1/2026.acl-long.1185}.",
+    "sha256": "8e269de0eec44fad4c818111b1c5fb324c1556391e3997b1c943a1a6c34056ba",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref31",
+    "record": "\\bibitem[Liu et~al.(2019)]{ref31}\nLiu Y, Ott M, Goyal N, Du J, Joshi M, Chen D, Levy O, Lewis M, Zettlemoyer L, Stoyanov V (2019) RoBERTa: A Robustly Optimized BERT Pretraining Approach. arXiv:1907.11692. \\url{https://arxiv.org/abs/1907.11692}.",
+    "sha256": "1e512d9947f4d655876693ceba4f91c08b675a7581978d03835691f76261e1d6",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref13",
+    "record": "\\bibitem[Ma et~al.(2026)]{ref13}\nMa J, Guo L, Liu Y, Zhao Z, Hao D, Lin X, Liu J (2026) M3-VQA: A Benchmark for Multimodal, Multi-Entity, Multi-Hop Visual Question Answering. Proceedings of ACL (Volume 1: Long Papers), 40633--40669. \\url{https://doi.org/10.18653/v1/2026.acl-long.1888}.",
+    "sha256": "5833f26b3c59ce36d8c67ccae08e63f80553ee72c418812090475db1048616e1",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref19",
+    "record": "\\bibitem[Prakash et~al.(2026)]{ref19}\nPrakash A, Dasgupta S, Chakraborty T (2026) HalluPrism: When Multimodal Uncertainty Should Diagnose, Not Decide. Accepted for publication in Findings of EMNLP 2026. \\url{https://arxiv.org/abs/2608.29193}.",
+    "sha256": "2788eecbf51d89a8f4e10fe31e0a7df86fe506a3fb222ae351631d5b2d59de1d",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref33",
+    "record": "\\bibitem[Robertson and Zaragoza(2009)]{ref33}\nRobertson SE, Zaragoza H (2009) The Probabilistic Relevance Framework: BM25 and Beyond. Foundations and Trends in Information Retrieval, 3(4), 333--389. \\url{https://doi.org/10.1561/1500000019}.",
+    "sha256": "1a76594eda027e3a47cee4adfce281d384664ee35fc507dae4a09c0e68ae5f8a",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref20",
+    "record": "\\bibitem[Ru et~al.(2024)]{ref20}\nRu D, Qiu L, Hu X, Zhang T, Shi P, Chang S, Jiayang C, Wang C, Sun S, Li H, Zhang Z, Wang B, Jiang J, He T, Wang Z, Liu P, Zhang Y, Zhang Z (2024) RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation. Advances in Neural Information Processing Systems 37, 21999--22027. \\url{https://doi.org/10.52202/079017-0692}.",
+    "sha256": "5b6dca2ca2243d94304ebd74118a0b67ea800b8891d15c642f4f06ffd4070025",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref32",
+    "record": "\\bibitem[Sanh et~al.(2019)]{ref32}\nSanh V, Debut L, Chaumond J, Wolf T (2019) DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter. arXiv:1910.01108. \\url{https://arxiv.org/abs/1910.01108}.",
+    "sha256": "13c4745a7dd006880f47ca86e2f48957c27429a2214ffd386cc34d140948427c",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref4",
+    "record": "\\bibitem[Shen et~al.(2025)]{ref4}\nShen Z, Yu J, Wang W, Xia R (2025) Global Question-Aware Multimodal Retrieval-Augmented Generation for Multimedia Multi-Hop Question Answering. ACM Multimedia Asia, 1--8. \\url{https://doi.org/10.1145/3743093.3771062}.",
+    "sha256": "af02bfee475579f52bc5363aad685df799d157662234759a5ce6324ca974fd5e",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref24",
+    "record": "\\bibitem[Soudani et~al.(2026)]{ref24}\nSoudani H, Zamani H, Hasibi F (2026) Uncertainty Quantification for Retrieval-Augmented Reasoning. Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval, 1665--1676. \\url{https://doi.org/10.1145/3805712.3809717}.",
+    "sha256": "8e7e8d6c095ab24c4c009e32cbf58230171881447a00f74f8bc3f66612a54929",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref28",
+    "record": "\\bibitem[Su et~al.(2024)]{ref28}\nSu W, Tang Y, Ai Q, Wu Z, Liu Y (2024) DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 12991--13013. \\url{https://doi.org/10.18653/v1/2024.acl-long.702}.",
+    "sha256": "6ec97514be6ac5a4fbc0b9254c08f89d53e2a1fb53d8a5bde68b97c3415f249b",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref1",
+    "record": "\\bibitem[Talmor et~al.(2021)]{ref1}\nTalmor A, Yoran O, Catav A, Lahav D, Wang Y, Asai A, Ilharco G, Hajishirzi H, Berant J (2021) MultiModalQA: Complex Question Answering over Text, Tables and Images. 9th International Conference on Learning Representations (ICLR). \\url{https://openreview.net/forum?id=ee6W5UgQLa}.",
+    "sha256": "bdbd353ef84fa81b5f3f3dc51451b75c763cc99743a5842543b6a0d423b9cd74",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref22",
+    "record": "\\bibitem[Tang et~al.(2024)]{ref22}\nTang L, Laban P, Durrett G (2024) MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents. Proceedings of EMNLP, 8818--8847. \\url{https://doi.org/10.18653/v1/2024.emnlp-main.499}.",
+    "sha256": "28137b6abc187d1f5b480f8656696cfd55ec88e80ba4fad5e89199b4f5a575d2",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref16",
+    "record": "\\bibitem[Wei et~al.(2024)]{ref16}\nWei C, Chen Y, Chen H, Hu H, Zhang G, Fu J, Ritter A, Chen W (2024) UniIR: Training and Benchmarking Universal Multimodal Information Retrievers. Computer Vision -- ECCV 2024, 387--404. \\url{https://doi.org/10.1007/978-3-031-73021-4_23}.",
+    "sha256": "25c5dfd88b1b637438bc65057a66c75e6b7a2d56e2f0e082e772238d4c36e417",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref9",
+    "record": "\\bibitem[Whitehead et~al.(2022)]{ref9}\nWhitehead S, Petryk S, Shakib V, Gonzalez J, Darrell T, Rohrbach A, Rohrbach M (2022) Reliable Visual Question Answering: Abstain Rather Than Answer Incorrectly. ECCV, 148--166. \\url{https://doi.org/10.1007/978-3-031-20059-5_9}.",
+    "sha256": "7e9f1ac6736442fd2d272f1cacf65a2b230d82e7546e5644dc446a8b94302326",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref34",
+    "record": "\\bibitem[Xiao et~al.(2024)]{ref34}\nXiao S, Liu Z, Zhang P, Muennighoff N, Lian D, Nie JY (2024) C-Pack: Packed Resources For General Chinese Embeddings. Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, 641--649. \\url{https://doi.org/10.1145/3626772.3657878}.",
+    "sha256": "8628b243925d92772b6407b182d34204dc83e074095e735ddd7a550376ca5e5c",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref23",
+    "record": "\\bibitem[Xiong et~al.(2024)]{ref23}\nXiong M, Hu Z, Lu X, Li Y, Fu J, He J, Hooi B (2024) Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs. International Conference on Learning Representations, 23650--23678. \\url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/6733cf15e10e2cd1d59af033c3bb8507-Abstract-Conference.html}.",
+    "sha256": "bdc7a7b0c501dcb35aa93714d910a1d8b34b3fe4ac692d6bb858ae4473baa5c3",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref3",
+    "record": "\\bibitem[Yang et~al.(2023)]{ref3}\nYang Q, Chen Q, Wang W, Hu B, Zhang M (2023) Enhancing Multi-modal Multi-hop Question Answering via Structured Knowledge and Unified Retrieval-Generation. ACM Multimedia, 5223--5234. \\url{https://doi.org/10.1145/3581783.3611964}.",
+    "sha256": "d12ad68bc661bd73c86c191e43684aebfb6daa41ff75631cc05429fe3694f05b",
+    "scope": "scientific citation, not submission history"
+  },
+  {
+    "key": "ref15",
+    "record": "\\bibitem[Yang et~al.(2026)]{ref15}\nYang S, Wu A, Wu X, Zhao J, Wang L, He L (2026) Evidence-chain-driven multimodal retrieval question answering. Knowledge-Based Systems 348 (2026): 116358. \\url{https://doi.org/10.1016/j.knosys.2026.116358}.",
+    "sha256": "9d9774db9a8a6a56bc00f84fdc681ab029aad68d0f0d02cb04c304552f1b4d06",
+    "scope": "scientific citation, not submission history"
+  }
+]

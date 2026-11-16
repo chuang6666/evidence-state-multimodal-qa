@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite these reproducibility materials with the manuscript title and authors. The linked manuscript version is a submission candidate, not an accepted or published article."
+type: software
+title: "Evidence-State Risk Estimation for Selective Regeneration in Multimodal Multi-Hop Question Answering: IJMLC v2 Reproducibility Materials"
+version: "0.1.0-rc1"
+authors:
+  - family-names: Zhang
+    given-names: Qiang
+  - family-names: Sun
+    given-names: Chuang
+  - family-names: Cui
+    given-names: Dong
+keywords:
+  - multimodal question answering
+  - structural error-risk representation
+  - selective regeneration
+  - frozen-output evaluation

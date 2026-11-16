@@ -1,0 +1,93 @@
+[
+  {
+    "equation": "1",
+    "document": "main",
+    "latex": "\\begin{equation}E_i=(e_{i1},e_{i2},\\ldots,e_{i6}).\\label{eq:evidence}\\end{equation}",
+    "sha256": "33fafd0a430258e70a109155f7c99e45ee4fdf766253ef8b751f38dfe747cd01",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "2",
+    "document": "main",
+    "latex": "\\begin{equation}z_i^E=(R_{i1},R_{i2},R_{i3},R_{i4},R_{i5}),\\qquad R_{it}\\in\\{0,1\\}.\\end{equation}",
+    "sha256": "2bd9327086e0f1d1f9ecac331abca1fbea432c81ea907d906958115bbdb47335",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "3",
+    "document": "main",
+    "latex": "\\begin{equation}z_i^O=(P_{i1},P_{i2},P_{i3},P_{i4},P_{i5}).\\end{equation}",
+    "sha256": "4dea00809b6309e1b943cd2675c48c8fb6e25fd93feb3f0fc9d1551841e05d67",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "4",
+    "document": "main",
+    "latex": "\\begin{equation}M_{it}=\\ind(R_{it}=1\\land P_{it}=0),\\end{equation}",
+    "sha256": "8d3ef74398982fc0b33408ce652ab9d729133730b60a40c276b56ef90e709150",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "5",
+    "document": "main",
+    "latex": "\\begin{equation}v_{it}=\\min_{c\\in C_{it}}v_{itc}.\\end{equation}",
+    "sha256": "26f5bc00626cc07ae6c6bb635a8c1a0b856c0e633e857a7980b15c26bdda365b",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "6",
+    "document": "main",
+    "latex": "\\begin{equation}I_{it}=\\ind(R_{it}=1\\land P_{it}=1\\land v_{it}<\\tau_t).\\end{equation}",
+    "sha256": "f559acf0a7e127ec83a7f41e32c9ff0898aae7676126179890c631aa922ef341",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "7",
+    "document": "main",
+    "latex": "\\begin{equation}\nD_i=\\begin{cases}\n\\textsc{Structural\\_Missing},&\\exists t:M_{it}=1,\\\\\n\\textsc{Verifier\\_Invalid},&\\nexists t:M_{it}=1\\ \\land\\ \\exists t:I_{it}=1,\\\\\n\\textsc{Clean\\_Or\\_Uncertain},&\\text{otherwise}.\n\\end{cases}\\label{eq:diagnosis}\n\\end{equation}",
+    "sha256": "1e21759353780db10b373993f25fce9592784921a7f00598c841466f65233b74",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "8",
+    "document": "main",
+    "latex": "\\begin{equation}\ns_{it}=w_t\\frac{\\max(0,\\tau_t-v_{it})}{\\max(\\tau_t,10^{-6})},\\qquad\nL_i=\\mathop{\\arg\\max}_{t:I_{it}=1}s_{it}.\n\\end{equation}",
+    "sha256": "5b62b68e3008c34dd6dc4d7647c0340a92a3e676a1e3d01b97940f3211317e52",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "9",
+    "document": "main",
+    "latex": "\\begin{equation}x_i=[g_i;h_i^E;h_i^{EO};d_i],\\qquad r_i=f_\\theta(x_i).\\end{equation}",
+    "sha256": "78004ae94f2d8fcd67d02fc19650748ce805575a134a1474b0d8310e96ac7521",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "10",
+    "document": "main",
+    "latex": "\\begin{equation}B_D=\\lceil\\rho N_D\\rceil,\\qquad\\rho=0.20,\\qquad B_{r,D}=B_D-|F_D|.\\end{equation}",
+    "sha256": "a1b5d5effb1ef718418f6b9812fad551cac80e56dc2b78a28003c124a603879d",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "11",
+    "document": "main",
+    "latex": "\\begin{equation}\nS_D=F_D\\cup\\operatorname{TopIdx}_{B_{r,D}}\\{(i,r_i):i\\in C_D,\\ i\\notin F_D\\}.\n\\label{eq:selection}\n\\end{equation}",
+    "sha256": "5a963a7553259efd9a7ae4ce8ee600ddda0a57a4401d088bf8a3dcae29eea607",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "12",
+    "document": "main",
+    "latex": "\\begin{equation}w_t=\\operatorname{clip}(2\\operatorname{AUC}_t-1,0,1),\\end{equation}",
+    "sha256": "074f65905569a74a6a79073397ccdaa02ccbb3a2bc0f5c793dd328ce6b82afef",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  },
+  {
+    "equation": "S1",
+    "document": "SI",
+    "latex": "\\begin{equation}\\operatorname{ALScore}_i=\\frac{m}{p+g-m},\\qquad \\operatorname{Accuracy}=\\frac{100}{N_D}\\sum_i\\operatorname{ALScore}_i.\\end{equation}",
+    "sha256": "9b0ce08f175fdc7543917d727340ccf5454e3bdee006bd20f8bcd6104a7689ab",
+    "scope": "frozen specification; availability of executable implementations is mapped separately"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "datasets": {
+    "Dev1096": {
+      "N": 1096,
+      "folds": 5,
+      "top_k": 220,
+      "tie_break": "descending risk, ascending QID"
+    },
+    "locked1341": {
+      "N": 1341,
+      "selected": 269,
+      "original_forced": 6
+    },
+    "M3-VQA": {
+      "N": 13125,
+      "selected": 2625,
+      "forced": 515
+    }
+  },
+  "risk_LR": {
+    "solver": "liblinear",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "random_state": 260817,
+    "feature_scaling": false,
+    "probability_calibration": false
+  },
+  "B3": {
+    "raw_fields": 65,
+    "vectorized_dimensions": 75,
+    "selected_by": "Top-220 Error Precision, AP tie-break"
+  },
+  "A4": {
+    "fields": 18,
+    "features": "G12+M6"
+  },
+  "A6": "B3 full configuration",
+  "OOF_scope": "Risk-classifier OOF conditional on fixed upstream representation; not strict nested cross-validation of the entire pipeline.",
+  "state_input": "Question, Frozen Initial Answer, ordered Exact Top-6 serialized evidence; no raw image pixels in state extraction.",
+  "MiniCheck": {
+    "weights": "MiniCheck-Flan-T5-Large",
+    "model_revision": "96eafd01cee2d16cf81aaa2fb226b14f422a37b3",
+    "code_revision": "b58b9fa69acbd1015ec970fa65dd752413a053d2",
+    "claim_conversion": "frozen deterministic v1; 823 Dev1096 QA_META_FALLBACK cases; 85 special initial-answer cases",
+    "aggregation": "maximum chunk support, arithmetic mean across claims",
+    "risk": "1 - support",
+    "forced_score": "not applicable"
+  },
+  "external_G12_combinations": "Study-designed controls; not official end-to-end reproductions of either external paper.",
+  "budget_scope": "Selected-question count only; total scoring calls, tokens, latency and cost are not matched."
+}
