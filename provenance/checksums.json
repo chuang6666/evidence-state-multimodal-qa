@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6102,
-      "sha256": "d5528175059db417885f51e9fb7fbfb041d298a5a3b1d67500407f17d8114bfb"
+      "bytes": 7617,
+      "sha256": "6f759642f0699b87bda8a01323a4c2d03a503c0320a68121bf8550e18a82feea"
     },
     {
       "path": "RELEASE_STATUS.json",
@@ -69,8 +69,8 @@
     },
     {
       "path": "docs/RELEASE_SCOPE.md",
-      "bytes": 2622,
-      "sha256": "6de8e164678d83bae66a48a30c89bc0144936314fa206230d9b43506554aba41"
+      "bytes": 2808,
+      "sha256": "039455b8f436f47341887ba248d665a7100c322398a80570a23fd04d99c9bcbd"
     },
     {
       "path": "docs/REPRODUCTION_GUIDE.md",

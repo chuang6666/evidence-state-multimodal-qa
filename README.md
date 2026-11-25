@@ -1,23 +1,25 @@
-# Evidence-State: IJMLC v2 reproducibility materials
+# Evidence-State Risk Estimation for Multimodal Multi-Hop Question Answering
 
-## Project Overview
+## Project overview
 
-This project studies **Question-Conditioned Structural Error-Risk Representation** for multimodal multi-hop question answering. Expected–Observed Evidence-State aligns question-predicted relation requirements with extracted structural completeness and component verification. The resulting risk features prioritize existing answers for a fixed number of selective-regeneration opportunities.
+Evidence-State estimates the error risk of an existing multimodal multi-hop QA answer and ranks questions for selective regeneration under a fixed question budget. Expected–Observed Evidence-State aligns question-predicted relation requirements with extracted structural completeness and component verification. The released evaluations measure error concentration in the selected set and realized answer improvement after regeneration.
 
-The frozen B3 configuration uses 65 raw fields and 75 vectorized dimensions. On MMQA Dev1096, its Top-220 set contains 201 initial errors, versus 190 for G0 and 199 for G12+M6 (A4). The complete representation's two-error increment over A4 is descriptive; error concentration and realized answering benefit are evaluated separately.
+Authors: Qiang Zhang, Chuang Sun, and Dong Cui. The frozen evaluations cover MMQA Dev1096, MMQA locked1341, and the 13,125-question M³-VQA transfer set.
 
-## Paper
+## CSCWD 2027 manuscript
 
-**Evidence-State Risk Estimation for Selective Regeneration in Multimodal Multi-Hop Question Answering**
+These materials support the six-page manuscript *Evidence-State Risk Ranking for Budgeted Multimodal Multi-Hop Question Answering*, prepared for CSCWD 2027. The [pinned numerical release](https://github.com/chuang6666/evidence-state-multimodal-qa/commit/0d3a8f8acc8a57e03fcd40d90b31718713cd748a) is the source of the following frozen checks:
 
-- Authors: Qiang Zhang, Chuang Sun, Dong Cui.
-- Target journal: *International Journal of Machine Learning and Cybernetics* (IJMLC).
-- Current manuscript: **IJMLC_Submission_v2**, 25-page main manuscript and 30-page Supplementary Information.
-- Status: **submission candidate; not accepted or published**.
-- Datasets: MMQA Dev1096, MMQA locked1341, and the frozen 13,125-question M³-VQA evaluation set.
-- Comparators: G0, B0–B4, A-series/S-series structural controls, Suff-only, MiniCheck-only, both G12+LR combinations, Random-20, Instability-20, and VC-20.
+- **Table I, Dev1096 risk ranking:** Top-220 (20%) error precision, AP, and ROC AUC from [formal OOF scores](frozen_results/rankings/dev1096_oof.jsonl) and [external scores](external_comparisons/dev1096.jsonl). The external comparisons cover Suff-only, MiniCheck-only, G12+Suff-LR, and G12+MiniCheck-LR.
+- **Table II, locked1341 answering:** The ten displayed configurations use released [base projections](frozen_results/metrics/locked1341.jsonl) and [external projections](external_comparisons/locked1341.jsonl). Regeneration arms select 269 questions under their saved policies. The [configuration manifest](configs/ten_configurations.json) records the selection policies and output sources. The endpoints preserve each run's frozen output pool.
+- **Table III, M³-VQA transfer:** [Frozen projections](frozen_results/metrics/m3vqa13125.jsonl) support the study's answer-list accuracy for the initial and two selection strategies, with a budget of 2,625 questions for the latter.
+- **Table IV, Dev1096 ablations and intervention utility:** [Explanatory OOF scores](frozen_results/rankings/dev1096_explanatory_oof.jsonl) support the A/S-series ranking rows. [Controlled endpoint projections](frozen_results/metrics/dev1096_controlled.jsonl) and [memberships](frozen_results/selections/dev1096_controlled_membership.jsonl) support the A0/A4/A6 controlled comparisons.
 
-See [the complete manuscript mapping](docs/IJMLC_MANUSCRIPT_MAPPING.md) and the [version binding](provenance/ijmlc_manuscript_binding.json). The ten locked1341 configurations and their output sources are enumerated in [the configuration manifest](configs/ten_configurations.json).
+Run the table and statistical commands below to replay the corresponding frozen numerical records. The generated CSV filenames follow the archived extended manuscript's numbering and contain additional rows and columns beyond the six-page manuscript.
+
+## Historical manuscript records
+
+The repository was originally published with IJMLC v2 reproducibility materials. Its [historical manuscript mapping](docs/IJMLC_MANUSCRIPT_MAPPING.md), [version binding](provenance/ijmlc_manuscript_binding.json), and [release status record](RELEASE_STATUS.json) retain their original manuscript identity. The current documentation update does not change that binding or the pinned numerical release.
 
 ## Repository Contents
 
@@ -66,9 +68,9 @@ The commands compare against frozen expectations and stop on disagreement. They 
 
 Included: frozen ranking and membership replay; frozen-score endpoint aggregation; the specified fixed-score/paired statistical comparisons; and optional rescoring of bundled approved answer predictions against independently obtained provider references.
 
-The four external configurations are reproducible from released **numerical output records**. Their complete replacement-answer texts are not distributed, so independent answer-level rescoring of those configurations requires separately authorized answer records. Rebuilding external scores, G12+LR fits, transition verifiers, or original structural extraction is not part of this validated workflow.
+The four external configurations are reproducible from released **numerical output records**. Their complete replacement-answer texts are not distributed, so independent answer-level rescoring of those configurations requires separately authorized answer records. Rebuilding external scores, G12+LR fits, transition verifiers, or original structural extraction requires additional inputs and model artifacts outside this validated workflow. Recreating commercial scores or generated answers requires access to the relevant external APIs and backend versions.
 
-The 26 table mappings distinguish numerical replay, QID/case linkage, and frozen specification/table records. Not all supplementary training, resource-use, or retrieval-reference tables have released per-example inputs. **Frozen-output replay is not complete end-to-end reproduction.**
+The 26 historical IJMLC table mappings distinguish numerical replay, QID/case linkage, and frozen specification/table records. Not all supplementary training, resource-use, or retrieval-reference tables have released per-example inputs. **Frozen-output replay is not complete end-to-end reproduction.**
 
 ## Data Access
 
@@ -79,4 +81,4 @@ Obtain data under the providers' terms. Reference answers, original questions/ev
 
 ## Release and licensing status
 
-This independent repository publicly releases the **IJMLC v2 frozen-output reproducibility materials**. The manuscript remains a submission candidate; this repository does not imply acceptance, publication, or a release DOI. The authors authorized publication of the reviewed materials. No project-wide open-source license has been selected; public availability does not grant an unrestricted reuse license. See [RELEASE_SCOPE](docs/RELEASE_SCOPE.md).
+This repository provides author-approved frozen-output materials. The CSCWD 2027 manuscript is prepared for submission. The repository makes no claim of acceptance, formal paper publication, or a release DOI. The authors authorized publication of the reviewed materials. No project-wide open-source license has been selected; public availability does not grant an unrestricted reuse license. See [RELEASE_SCOPE](docs/RELEASE_SCOPE.md).

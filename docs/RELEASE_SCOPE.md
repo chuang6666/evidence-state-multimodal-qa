@@ -4,7 +4,7 @@
 
 IJMLC v2 frozen numerical rankings, memberships, endpoint projections, approved base prediction values, feature/equation contracts, manuscript mappings, pure evaluation kernels, specified statistical procedures and integrity tests. Function-body receipts identify retained numerical code; relocation and table-number changes do not change metric definitions.
 
-The source tree has independent Git history and presents this manuscript candidate only. The authors authorized the public frozen-output release at https://github.com/chuang6666/evidence-state-ijmlc. Public repository release does not imply journal acceptance or publication.
+The authors authorized the original public frozen-output release at https://github.com/chuang6666/evidence-state-ijmlc, which redirects to https://github.com/chuang6666/evidence-state-multimodal-qa. The preserved IJMLC v2 records describe that release's origin. The current repository also documents which of the same numerical materials support the CSCWD 2027 manuscript. Public repository release does not imply acceptance or publication of either manuscript.
 
 ## Deliberately not distributed
 
